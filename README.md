@@ -1,2 +1,2 @@
 # pyth
-test pyth
+test python script
