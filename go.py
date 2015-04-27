@@ -33,7 +33,15 @@ file.close()
 for line in lineList:
     print(line, end='')
 '''
-from ClassOne import * #get classes from ClassOne file
-myBuddy = Calculator() # make myBuddy into a Calculator object
+
+'''
+import ClassOne #get classes from ClassOne file
+myBuddy = ClassOne.Calculator() # make myBuddy into a Calculator object
 myBuddy.add(2) #use myBuddy's new add method derived from the Calculator class
 print(myBuddy.getCurrent()) #print myBuddy's current instance variable 
+
+'''
+import fibo
+fib=fibo.fib
+fib(500)
+
