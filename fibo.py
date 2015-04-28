@@ -16,7 +16,19 @@ def fib2(n): # return Fibonacci series up to n
         a, b = b, a+b
     return result
 
-if __name__ == "__main__":
+def main():
+    #main function when fibo run independently 
+    
     #import sys
     #fib(int(sys.argv[1]))
     print('Fibo is main')
+    import collections
+    queue = collections.deque([1,2,3])
+    print(queue.popleft())
+
+
+if __name__ == "__main__":
+    main()
+
+
+    
