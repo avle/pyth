@@ -35,8 +35,8 @@ def main():
     #begin process cmd line arguments
     # print('Num of cmd line args:'.ljust(SIZE_COLUMN_1), len(sys.argv))
     # print('Command line args:'.ljust(SIZE_COLUMN_1), '-'*10)
-    for arg in sys.argv:
-        print(''.ljust(SIZE_COLUMN_1),arg)
+    # for arg in sys.argv:
+        # print(''.ljust(SIZE_COLUMN_1),arg)
     if len(sys.argv) > 1:
         directory_source = sys.argv[1]
         if len(sys.argv) > 2:
